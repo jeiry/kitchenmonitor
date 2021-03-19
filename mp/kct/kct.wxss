@@ -1,0 +1,15 @@
+/**index.wxss**/
+.box{
+  display:flex;
+  flex-wrap:wrap;
+  display: -webkit-flex;
+  background-color: red;
+}
+.box>.item{
+  flex:1; 
+  height:50px;
+  background-color: greenyellow;
+}
+.info{
+  margin: 10px;
+}

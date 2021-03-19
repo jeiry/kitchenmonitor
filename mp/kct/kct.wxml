@@ -1,0 +1,14 @@
+<wux-notification id="wux-notification" />
+<view class="page">
+  <view class="page__bd">
+    <view class="box" wx:for="{{temparr}}" wx:for-item="item" wx:key='i' wx:for-index="index">
+      <view wx:for="{{temparr[index]}}" wx:for-item="sub_item" wx:key="sub_i" wx:for-index="sub_index" class="item"
+        style='opacity:{{alarr[index][sub_index]}};'>
+      </view>
+    </view>
+    <view class="info">
+      最高温度:{{maxTemp}}℃
+    </view>
+    
+  </view>
+</view>
